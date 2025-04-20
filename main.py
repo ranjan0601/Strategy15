@@ -318,8 +318,8 @@ def send_to_telegram(summary_df, bot_token, chat_id):
         print(f"Failed to send message. Error: {response.text}")
 
 # Example usage
-bot_token = "7998210391:AAFL3DVEKRmx71PkjdEhxGAFSzb3pEiVJS8"  # Replace with your bot's API token
-chat_id = "5769301731"      # Replace with your chat ID
+bot_token = ""  # Replace with your bot's API token
+chat_id = ""      # Replace with your chat ID
 
 # Send the summary DataFrame
 send_to_telegram(summary_df, bot_token, chat_id)
